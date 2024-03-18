@@ -144,7 +144,7 @@ a {
 .hero-section {
 
     text-align: center;
-    height: 730px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -175,14 +175,18 @@ a {
     font: 14px 'Poppins', sans-serif;
 }
 
-.hero {
-    top: 200px;
+.herocontent {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+  }
+  .hero {
     position: relative;
     z-index: 999;
     text-align: center;
     color: white;
     padding-top: 40px;
-}
+  }
 
 .burger-btn {
     display: none;
